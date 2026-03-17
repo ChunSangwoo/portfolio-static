@@ -6,7 +6,7 @@
     <title>portfolio-static</title>
     <meta name="description" content="portfolio-static" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,14 +33,16 @@
           <li><a href="#home" class="header-menu-item active">Home</a></li>
           <li><a href="#about" class="header-menu-item">About</a></li>
           <li><a href="#skills" class="header-menu-item">Skills</a></li>
-          <li><a href="#work" class="header-menu-item">My work</a></li>
+          <li><a href="#work" class="header-menu-item">My Work</a></li>
           <li>
             <a href="#testimonial" class="header-menu-item">Testimonial</a>
           </li>
           <li><a href="#contact" class="header-menu-item">Contact</a></li>
         </ul>
       </nav>
+      <button class="header-toggle"><i class="fa-solid fa-bars"></i></button>
     </header>
+
     <main>
       <section id="home">
         <img src="images/favicon.ico" alt="photo" class="home-avatar" />
@@ -53,13 +55,14 @@
         </p>
         <a class="home-contact" href="#">contact me</a>
       </section>
+
       <section id="about" class="section container">
         <h2 class="title">About me</h2>
         <p class="description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-          assumenda qui illo itaque. Veniam, voluptatibus ab tempora tenetur
-          doloribus vitae sequi soluta assumenda, magni, quis in neque laborum
-          debitis facilis.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odio
+          dicta necessitatibus libero magnam est alias nisi laborum nesciunt!
+          Quam possimus accusantium, provident fugiat accusamus amet dicta fuga
+          voluptate quo.
         </p>
         <ul class="majors">
           <li class="major">
@@ -100,10 +103,10 @@
         <h2 class="title">My Skills</h2>
         <p class="description">Skills & Attributes</p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-          expedita quisquam facere nisi aut dolor autem culpa. Eveniet quisquam
-          eligendi dicta architecto, itaque, labore magni laborum quo, commodi
-          autem earum!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, unde
+          nesciunt cumque repellendus eligendi voluptas illum fugiat enim,
+          maiores velit consectetur nihil dolore saepe ipsum doloribus. Magni
+          facere sed dolor.
         </p>
         <div class="skills">
           <article class="skills-coding">
@@ -111,7 +114,9 @@
             <ul>
               <li class="bar">
                 <div class="bar-title"><span>HTML</span><span>98%</span></div>
-                <div class="bar-bg"><div class="bar-value html"></div></div>
+                <div class="bar-bg">
+                  <div class="bar-value" style="width: 98%"></div>
+                </div>
               </li>
               <li class="bar">
                 <div class="bar-title"><span>CSS</span><span>90%</span></div>
@@ -136,7 +141,6 @@
               <li class="bar">
                 <div class="bar-title"><span>React</span><span>79%</span></div>
                 <div class="bar-bg"><div class="bar-value react"></div></div>
-                <!-- <div class="bar-bg"><div class="bar-value" style="width: 98%;"></div></div> 도 가능-->
               </li>
               <li class="bar">
                 <div class="bar-title"><span>NodeJS</span><span>68%</span></div>
@@ -154,8 +158,9 @@
               <li>MySQL Workbench</li>
             </ul>
           </article>
+
           <article class="skills-etc">
-            <h3 class="skills-title">ETC</h3>
+            <h3 class="skills-title">Etc</h3>
             <ul>
               <li>Git</li>
               <li>Scrum Master</li>
@@ -164,6 +169,7 @@
           </article>
         </div>
       </section>
+
       <section id="work" class="section container">
         <h2 class="title">My Work</h2>
         <p class="description">Projects</p>
@@ -178,13 +184,11 @@
               Front-end<span class="category-count">4</span>
             </button>
           </li>
-
           <li>
             <button class="category">
               Back-end<span class="category-count">2</span>
             </button>
           </li>
-
           <li>
             <button class="category">
               Mobile<span class="category-count">2</span>
@@ -282,6 +286,7 @@
           </li>
         </ul>
       </section>
+
       <section id="testimonial" class="section container">
         <h2 class="title">Testimonial</h2>
         <p class="description">See What they say about me</p>
@@ -294,16 +299,16 @@
             />
             <div class="testimonial-text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                necessitatibus illum ad explicabo? Quidem non quasi corporis!
-                Quam quasi porro excepturi omnis, qui tempora minus eaque, sed
-                perferendis eum sunt?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                reprehenderit quaerat ab, impedit aliquam corrupti nesciunt
+                tempora harum earum labore corporis, facere assumenda! Qui
+                fugiat pariatur, voluptas repudiandae iure nulla.
               </p>
               <p>
                 <a href="#">
-                  <span class="testimonial-text-name">James Kim</span> /
-                  <span class="testimonial-text-company">Samsung</span>
-                </a>
+                  <span class="testimonial-text-name">James Kim</span>
+                  <span class="testimonial-text-company">/ Samsung</span></a
+                >
               </p>
             </div>
           </li>
@@ -311,20 +316,20 @@
             <img
               class="testimonial-img"
               src="images/testimonials/people2.webp"
-              alt="people2"
+              alt="people3"
             />
             <div class="testimonial-text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                necessitatibus illum ad explicabo? Quidem non quasi corporis!
-                Quam quasi porro excepturi omnis, qui tempora minus eaque, sed
-                perferendis eum sunt?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                reprehenderit quaerat ab, impedit aliquam corrupti nesciunt
+                tempora harum earum labore corporis, facere assumenda! Qui
+                fugiat pariatur, voluptas repudiandae iure nulla.
               </p>
               <p>
                 <a href="#">
-                  <span class="testimonial-text-name">Smith Park</span> /
-                  <span class="testimonial-text-company">Google</span>
-                </a>
+                  <span class="testimonial-text-name">Smith Park</span>
+                  <span class="testimonial-text-company">/ Google</span></a
+                >
               </p>
             </div>
           </li>
@@ -336,16 +341,16 @@
             />
             <div class="testimonial-text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                necessitatibus illum ad explicabo? Quidem non quasi corporis!
-                Quam quasi porro excepturi omnis, qui tempora minus eaque, sed
-                perferendis eum sunt?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                reprehenderit quaerat ab, impedit aliquam corrupti nesciunt
+                tempora harum earum labore corporis, facere assumenda! Qui
+                fugiat pariatur, voluptas repudiandae iure nulla.
               </p>
               <p>
                 <a href="#">
-                  <span class="testimonial-text-name">Anna Lee</span> /
-                  <span class="testimonial-text-company">Samsung</span>
-                </a>
+                  <span class="testimonial-text-name">Anna Lee</span>
+                  <span class="testimonial-text-company">/ Samsung</span></a
+                >
               </p>
             </div>
           </li>
@@ -353,27 +358,20 @@
       </section>
 
       <!-- Arrow Top -->
-
       <aside>
-        <a href="#" class="arrow-up">
-          <i class="fas fa-arrow-up"></i>
-        </a>
+        <a href="#" class="arrow-up"><i class="fas fa-arrow-up"></i></a>
       </aside>
     </main>
 
     <footer id="contact" class="footer">
       <h2 class="title">Let's Talk</h2>
-      <p class="description">com.developer.judy@gmail.com</p>
+      <p class="descripton">com.developer.judy@gmail.com</p>
       <ul class="contact-links">
         <li>
-          <a href="#" class="contact-link">
-            <i class="fab fa-github"></i>
-          </a>
+          <a href="#" class="contact-link"><i class="fab fa-github"></i></a>
         </li>
         <li>
-          <a href="#" class="contact-link">
-            <i class="fab fa-linkedin"></i>
-          </a>
+          <a href="#" class="contact-link"><i class="fab fa-linkedin"></i></a>
         </li>
       </ul>
       <p>Junior Software Engineer Judy's Portfolio - All right reserved</p>
